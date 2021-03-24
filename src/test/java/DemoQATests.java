@@ -33,7 +33,7 @@ public class DemoQATests {
         $(byXpath("(//div[contains(text(),'2')])[1]")).click();
         $("#subjectsInput").setValue("Arts").pressEnter();
         $(byText("Music")).click();
-        $("#uploadPicture").uploadFile(new File("src\\test\\java\\resources\\1.jpg"));
+        $("#uploadPicture").uploadFile(new File("src\\test\\resources\\1.jpg"));
         $("#currentAddress").setValue(currentAddress);
         $("#react-select-3-input").setValue("NCR").pressEnter();
         $("#react-select-4-input").setValue("Delhi").pressEnter();
